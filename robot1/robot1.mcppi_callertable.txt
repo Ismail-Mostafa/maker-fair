@@ -1,0 +1,17 @@
+main
+	__CC2DW
+	pinmode
+	UART1_Init
+	neutral
+		digitalwrite
+	UART1_Data_Ready
+	UART1_Read
+	UART1_Write
+	forward
+		digitalwrite
+	backward
+		digitalwrite
+	right
+		digitalwrite
+	left
+		digitalwrite
